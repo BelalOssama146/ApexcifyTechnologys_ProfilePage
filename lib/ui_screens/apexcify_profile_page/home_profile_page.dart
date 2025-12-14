@@ -9,7 +9,7 @@ class HomeProfilePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Profile'),
+        title: const Text('Profile',style:AppStyle.profileTitle,),
         centerTitle: true,
       ),
 
